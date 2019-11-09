@@ -1,0 +1,29 @@
+{
+    "name": "phpmod/lara-breadcrumb",
+    "description": "Breadcrumb For Laravel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "haihv",
+            "email": "hai.hp.96@gmail.com"
+        }
+    ],
+    "require": {
+        "laravel/framework": ">=5.5"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "PhpMod\\LaravelBreadCrumb\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "PhpMod\\LaravelBreadCrumb\\BreadCrumbServiceProvider"
+            ]
+        }
+    }
+}
